@@ -1,0 +1,31 @@
+.mainBanner{
+    width: 100vw;
+    height: 356px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pic{
+    width: 250px;
+    height: 250px;
+    border-radius: 30%;
+}
+.hobby{
+    text-align: center;
+}
+.list{
+    list-style: none;
+}
+.imgGallery{
+    width: 256px;
+    height: 256px;
+}
+.personalInfo{
+    display: flex;
+    justify-content: space-around;
+    flex-basis: 15%;
+}
+.mainTitle{
+    font-family: 'Poppins', sans-serif;
+}

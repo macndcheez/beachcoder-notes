@@ -1,0 +1,31 @@
+.mainBanner{
+    width: 100vw;
+    height: 150px;
+    background-color: #726c6c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pic{
+    width: 350px;
+    height: 350px;
+    border-radius: 20%;
+}
+.hobby{
+    text-align: center;
+}
+.list{
+    list-style: none;
+}
+.imageGallery{
+    width: 260px;
+    height: 260px;
+}
+.personalInfo{
+    display: flex;
+    justify-content: space-around;
+    flex-basis: 15%;
+}
+.mainTitle{
+    font-family: 'Playfair Display', serif;
+}
