@@ -48,7 +48,7 @@ let selExample=cleanData.slice(2)
 let exTwo=cleanData.slice()
 let song="twinkle twinkle"
 let song2=song.slice(0,7)
-console.log(song[3])
+console.log(song[3]) //what are the brackets????
 let newNum="6"
 let otherNum='8'
 console.log(newNum+otherNum)
@@ -70,21 +70,22 @@ const parkIndex=park.indexOf('stone') //7
 let quiz1="GARBAGE!".slice(2).replace("B","") //RAGE!
 
 const stepOne=Math.random();
-const stepTwo=stepOne*10;
+const stepTwo=stepOne*10; 
 const stepThree=Math.floor(stepTwo);
 const stepFour=stepThree+1;
 console.log(stepFour)
-const ranNum=Math.floor(Math.random()*10)+1 //how to get #1-10
+
+const ranNum=Math.floor(Math.random()*10)+1 
 const numTwo='24'
 console.log(parseInt(numTwo),typeof numTwo);
 console.log("a"<"A")
 console.log(.1<=.5)
 console.log('waefiojaeofiw'.length >="hello".length)
 
-//if's and else if statements
+// if's and else if statements
 let password="tigers"
 if (password.length>=6){
-    if (password.indexOf(" ")!==-1){
+    if (password.indexOf(" ")!==-1){ 
         console.log("no space in password")
     } else{
         console.log("password accepted")
@@ -92,7 +93,7 @@ if (password.length>=6){
 }
 else{
     console.log("password needs to be longer")
-}
+} 
 
 //and/or operators
 console.log(true&&true)
@@ -124,7 +125,7 @@ if (choice==="cheez its"||choice==="beef jerky"||choice==="fat sals"){
 let mysteryNum=Infinity
 if (mysteryNum){
     console.log("truthie")
-}   else{
+}   else{``
     console.log("falsie")``
 }
 

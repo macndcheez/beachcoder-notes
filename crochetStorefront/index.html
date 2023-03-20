@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" 
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7c5adcf8b7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+    <title>Crochet R' Us</title>
+</head>
+<body>
+    <!-- start navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Crochet R Us</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="yarn.html">Yarn</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">Needles</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">Patterns</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">Gallery</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!-- end navbar -->
+
+      <div>
+        <img class="mainBanner" src="./public/crochet1.jpg" alt="crochet picture">
+        <h1 class="mainTitle">Crochet R Us</h1>
+      </div>
+
+      <div>
+        <h4 class="subTitle">Come find out about the crocheting world! <br>
+            We have a variety of yarns, needles, and project ideas to boost your creativity!</h4>
+      </div>
+
+    <!-- card start -->
+    <div class="cardContainer">
+    <div class="card mb-3 photoCard first" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="./public/purplecrochet.jpg" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title"><strong>New to crocheting?</strong></h5>
+              <p class="card-text">Find out about the basics of crocheting and things you need to get started. 
+                Basics include how to hold a needle and yarn, the 6 basic stitches, and types of yarn.`</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              <button type="button" class="btn btn-outline-dark">Learn More!</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-3 photoCard" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="./public/cactus.jpg" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title"><strong>Is it fake or real?</strong></h5>
+              <p class="card-text">Find out of this potted cactus is real or fake. There are many ways to personalize your cactus by
+                putting a flower or making your pot a different size.
+              </p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              <button type="button" class="btn btn-outline-dark">Learn More!</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <!-- card finish -->
+    <div class="moreInfo">
+        <div class="review">
+            <a href="">
+                <h2>Our Reviews</h2>
+            </a>
+            <a href="">
+                <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half"></i></p>
+            </a>
+            </div>
+            <div class="newsletter">
+                <h2>Sign up for our newsletter!</h2>
+                <input class="email" type="email" placeholder="Email">
+            </div>
+    </div>
+
+    <div class="imageCards">
+        <img class="big" src="./public/babyshoes.jpg" alt="little shoes">
+        <img class="cardsTwo" src="./public/yarnballs.jpg" alt="balls of yarn">
+        <img class="big" src="./public/graycrochet.jpg" alt="gray pattern">
+        <img class="cardsTwo" src="./public/frontpagepicture.jpg" alt="nice">
+    </div>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>

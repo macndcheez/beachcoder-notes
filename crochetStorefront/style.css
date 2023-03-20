@@ -1,0 +1,123 @@
+.mainBanner{
+    width: 100vw;
+    height: 600px;
+    position: absolute;
+    display: flex;
+    z-index: -1;
+    opacity: 0.75;
+}
+
+.mainTitle{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    z-index: 1;
+    padding-top: 8rem;
+    font-family: 'Nothing You Could Do', cursive;
+    font-weight: bolder;
+    font-size: 80px;
+}
+
+.photoCard{
+    position:relative;
+    margin-top: 28rem;
+}
+
+.cardContainer{
+    display: flex;
+    justify-content: space-around;
+}
+
+.review{
+    flex-direction: column;
+
+}
+
+.newsletter{
+    flex-direction: row;
+    margin-left: 3rem;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(28, 160, 74);
+    cursor: pointer;
+}
+
+a:hover{
+    color: salmon;
+}
+
+.moreInfo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p{
+    text-align: center;
+}
+
+.email{
+    margin-left: 5rem;
+}
+
+.cardsTwo{
+    width: 20%;
+    height: 20%;
+    
+}
+
+.imageCards{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.big{
+    width: 15%;
+    height: 18%;
+}
+
+.subTitle{
+    text-align: center;
+    padding-top: 1rem;
+    font-family: 'Nothing You Could Do', cursive;
+
+}
+
+.card-text{
+    text-align: left;
+}
+@media(max-width: 768px){
+    .first{
+        display: flex;
+        flex-direction: column;
+        width: 356px;
+        height: 400px;
+        margin-top: 130rem;
+    }
+    .cardContainer{
+        display: flex;
+        flex-direction: column;
+        width: 356px;
+        height: 400px;
+        justify-content: center;
+ 
+   
+    }
+    .mainBanner{
+        width: 100vw;
+        height: 600px;
+        position: absolute;
+        display: flex;
+        z-index: -1;
+        opacity: 0.75;
+    }
+    .moreInfo{
+        position: absolute;
+        display: flex;
+    }
+}
+

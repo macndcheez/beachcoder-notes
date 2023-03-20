@@ -1,0 +1,17 @@
+.mainImg{
+    height: 356px;
+    width: 60vw;
+}
+.mainBanner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.mainTitle{
+    font-family: 'Gloock', serif;
+}
+.info{
+    display: flex;
+    justify-content: space-around;
+}
